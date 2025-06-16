@@ -25,8 +25,8 @@ const zabApi = axios.create({
 	}
 });
 
-const atcPos = ["PHX", "ABQ", "TUS", "AMA", "ROW", "ELP", "SDL", "CHD", "FFZ", "IWA", "DVT", "GEU", "GYR", "LUF", "RYN", "DMA", "FLG", "PRC", "AEG", "BIF", "HMN", "SAF", "FHU"];
-const airports = ["KPHX", "KABQ", "KTUS", "KAMA", "KROW", "KELP", "KSDL", "KCHD", "KFFZ", "KIWA", "KDVT", "KGEU", "KGYR", "KLUF", "KRYN", "KDMA", "KFLG", "KPRC", "KSEZ", "KAEG", "KBIF", "KHMN", "KSAF", "KFHU"];
+const atcPos = ["PHX", "ABQ", "TUS", "AMA", "ROW", "ELP", "SDL", "CHD", "FFZ", "IWA", "DVT", "GEU", "GYR", "LUF", "RYN", "DMA", "FLG", "PRC", "AEG", "BIF", "HMN", "SAF", "FHU", "CVS", "GXF", "PCA"];
+const airports = ["KPHX", "KABQ", "KTUS", "KAMA", "KROW", "KELP", "KSDL", "KCHD", "KFFZ", "KIWA", "KDVT", "KGEU", "KGYR", "KLUF", "KRYN", "KDMA", "KFLG", "KPRC", "KSEZ", "KAEG", "KBIF", "KHMN", "KSAF", "KFHU", "KCVS", "KGXF", "KPCA"];
 const neighbors = ['LAX', 'DEN', 'KC', 'FTW', 'HOU', 'MMTY', 'MMTZ'];
 
 const airspace = [
